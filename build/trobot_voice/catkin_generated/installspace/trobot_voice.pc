@@ -1,0 +1,8 @@
+prefix=/home/penghui/pioneer_ws/install
+
+Name: trobot_voice
+Description: Description of trobot_voice
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,34 @@
+DWAPlannerROS:
+
+  # Velocity and acceleration parameters
+  max_vel_x: 0.25  # Maximum forward speed0.25 
+  min_vel_x: 0.1 # Minimum forward speed0.1
+  max_vel_y: 0.0  # Set to 0 for non-omnidirectional robots
+  max_vel_theta: 0.6  # Maximum rotational speed
+  min_vel_theta: 0  # Minimum rotational speed
+  acc_lim_x: 1.0  # x-axis acceleration limit
+  acc_lim_y: 0.0  # y-axis acceleration limit
+  acc_lim_theta: 2.0  # Rotational acceleration limit
+
+  # Distance parameters between the robot and the goal
+  xy_goal_tolerance: 0.2  # Tolerance for reaching the goal in x and y
+  yaw_goal_tolerance: 0.2  # Tolerance for reaching the goal orientation
+  latch_xy_goal_tolerance: false  # Whether to maintain goal distance tolerance
+
+  # Forward simulation and cost calculation parameters
+  sim_time: 3.5  # Time to simulate forward trajectories
+  sim_granularity: 0.025  # Granularity of trajectory simulation
+  vx_samples: 20  # Number of velocity samples
+  vy_samples: 0   # Set to 0 for non-omnidirectional robots
+  vtheta_samples: 20  # Number of angular velocity samples
+  path_distance_bias: 32.0  # Weight of path distance
+  goal_distance_bias: 20.0  # Weight of goal distance
+  occdist_scale: 0.02 # Weight of obstacle distance
+  forward_point_distance: 0.325  # Distance from the robot center to the forward point considered
+  stop_time_buffer: 0.2  # Stop time buffer
+  scaling_speed: 0.25  # Reduce the weights of path and goal distance in the cost function when speed is below this value
+  max_scaling_factor: 0.2  # Maximum scaling factor
+ 
+  # Other parameters
+  holonomic_robot: false  # Whether it is an omnidirectional robot
+  meter_scoring: true  # Whether to use meters as the unit for scoring

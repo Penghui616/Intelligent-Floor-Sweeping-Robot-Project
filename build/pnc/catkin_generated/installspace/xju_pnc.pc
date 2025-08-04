@@ -1,0 +1,8 @@
+prefix=/home/penghui/pioneer_ws/install
+
+Name: xju_pnc
+Description: Description of xju_pnc
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs costmap_2d costmap_plugins coverage_path_planner geometry_msgs message_runtime mbf_msgs nav_msgs roscpp sensor_msgs tf2 tf2_ros

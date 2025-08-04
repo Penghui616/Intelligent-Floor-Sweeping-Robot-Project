@@ -1,0 +1,8 @@
+<launch>
+	
+	<node name="voice_navi" pkg="trobot_voice" type="voice_navi.py" output="screen"/>
+
+	<node name="speech_goal" pkg="trobot_voice" type="speech_goal" output="screen"/>
+
+</launch>
+

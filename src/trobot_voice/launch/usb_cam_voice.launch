@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find robot_vision)/launch/usb_cam.launch"/>
+	<include file="$(find robot_vision)/launch/face_detector_usb_cam.launch"/>
+	<node name="tts_loc_sub" pkg="trobot_voice" type="tts_loc_sub" output="screen"/>
+
+</launch>
+

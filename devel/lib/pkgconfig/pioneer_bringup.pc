@@ -1,0 +1,8 @@
+prefix=/home/penghui/pioneer_ws/devel
+
+Name: pioneer_bringup
+Description: Description of pioneer_bringup
+Version: 1.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

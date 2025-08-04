@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="robot_vision" name="test" type="cv_bridge_test.py" output="screen">
+        <remap from="input_rgb_image" to="kinect2/qhd/image_color" />
+    </node>
+</launch>

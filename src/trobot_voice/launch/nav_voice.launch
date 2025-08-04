@@ -1,0 +1,8 @@
+<launch>
+    <include file="$(find mrobot_bringup )/launch/fake_mrobot_with_laser.launch"/>
+
+    <include file="$(find mrobot_navigation)/launch/fake_nav_demo.launch"/>
+    
+
+	
+</launch>

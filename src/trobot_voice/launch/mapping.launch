@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find mrobot_gazebo )/launch/mrobot_laser_nav_gazebo.launch"/>
+
+    <include file="$(find mrobot_navigation)/launch/gmapping_demo.launch"/>
+
+	<node name="mrobot_teleop" pkg="mrobot_teleop" type="xyz.py" output="screen"/>
+  	
+	<node name="iat_publish" pkg="trobot_voice" type="iat_publish" output="screen"/>
+</launch>

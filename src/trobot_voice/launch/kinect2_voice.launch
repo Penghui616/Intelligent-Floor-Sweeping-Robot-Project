@@ -1,0 +1,7 @@
+<launch>
+     <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch"/>
+	<include file="$(find robot_vision)/launch/face_detector.launch"/>
+	<node name="tts_subscribe" pkg="trobot_voice" type="tts_subscribe" output="screen"/>
+
+</launch>
+

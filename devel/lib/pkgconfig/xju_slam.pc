@@ -1,0 +1,8 @@
+prefix=/home/penghui/pioneer_ws/devel
+
+Name: xju_slam
+Description: Description of xju_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs tf2 tf2_ros

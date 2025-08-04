@@ -1,0 +1,8 @@
+prefix=/home/penghui/pioneer_ws/install
+
+Name: costmap_plugins
+Description: Description of costmap_plugins
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lkeep_out_layer
+Requires: costmap_2d
