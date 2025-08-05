@@ -1,5 +1,7 @@
 Intelligent Floor Sweeping Robot
 
+Project video links: https://www.youtube.com/watch?v=S5znRcjIxPI&t=283s
+
 This project involves the design and development of an autonomous floor sweeping robot powered by ROS (Robot Operating System). The robot is capable of performing voice-controlled navigation, full-coverage path cleaning, battery monitoring, and autonomous recharging. It is suitable for both residential and commercial cleaning applications.
 
 
